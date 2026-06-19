@@ -7,7 +7,7 @@ import { motion } from "motion/react";
 import cementImg from "./assets/images/construction_cement_bags_1781885935767.jpg";
 import sandImg from "./assets/images/sand_gravel_piles_1781885951844.jpg";
 import brickImg from "./assets/images/red_brick_stacks_1781885965223.jpg";
-import heroImg from "./assets/images/logo-1.png";
+import heroImg from "./assets/images/logo-2.png";
 import { 
   PhoneCall, 
   MapPin, 
