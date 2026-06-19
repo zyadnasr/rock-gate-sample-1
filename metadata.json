@@ -1,0 +1,8 @@
+{
+  "name": "Rock Gate Contracting & Supplies",
+  "description": "A polished, conversion-focused landing page for a building materials supplier in Cairo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Cairo", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-brand-dark: #09090b;
+  --color-brand-gold: #fcd075;
+  --color-brand-muted: #757470;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", "Cairo", sans-serif;
+  background-color: var(--color-brand-dark);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Custom Utilities for Glow Effects */
+.glow-gold {
+  box-shadow: 0 0 40px -10px rgba(252, 208, 117, 0.4);
+}
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #fcd075, #fff);
+}
+
