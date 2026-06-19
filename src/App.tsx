@@ -7,6 +7,7 @@ import { motion } from "motion/react";
 import cementImg from "./assets/images/construction_cement_bags_1781885935767.jpg";
 import sandImg from "./assets/images/sand_gravel_piles_1781885951844.jpg";
 import brickImg from "./assets/images/red_brick_stacks_1781885965223.jpg";
+import heroImg from "./assets/images/logo-1.png";
 import { 
   PhoneCall, 
   MapPin, 
@@ -179,7 +180,7 @@ export default function App() {
                <div className="relative z-10 rounded-[2.5rem] overflow-hidden border border-white/10 bg-brand-dark/50 backdrop-blur-sm p-4 shadow-2xl">
                  <div className="absolute inset-0 bg-gradient-to-tr from-brand-gold/20 to-transparent opacity-50 mix-blend-overlay" />
                  <img 
-                   src="https://drive.google.com/uc?export=view&id=19xRE1p9bt9imXNe_V_mcV_CSLHs8c9x-" 
+                   src={heroImg}
                    alt="Building Materials Supply" 
                    className="w-full aspect-[4/5] object-cover rounded-[2rem] shadow-inner"
                    referrerPolicy="no-referrer"
